@@ -1,0 +1,24 @@
+#rivate String userName;
+#private Boolean boss;
+#private Date birth;
+#private Integer age;
+#private Pet pet;
+#private String[] interests;
+#private List<String> animal;
+#private Map<String, Object> score;
+#private Set<Double> salarys;
+#private Map<String, List<Pet>> allPets;
+
+person:
+  userName: 张三
+  boss: true
+  birth: 1999/11/21
+  age:  21
+  pet:
+    name: 大黄
+    weight: 50
+  interests: [a,r,r,a,y]
+  animal: [l,i,s,t]
+  score: [{user: string},{id: 12}]
+  salarys: [1,2,3,4,5]
+  all-pets: {user: [{name: 李四,weight: 111},{name: 王五,weight: 222}]}
