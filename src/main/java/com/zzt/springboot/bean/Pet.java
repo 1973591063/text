@@ -6,4 +6,7 @@ import lombok.Data;
 class Pet {
     private String name;
     private Double weight;
+    private Double weight;
+    private Double weight;
+    private Double weight;
 }
